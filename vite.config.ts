@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      base: '/master-plus-ad-creator/',
+      base: 'https://ishchenko-oleg.github.io/master-plus-ad-creator/',
       server: {
         port: 3000,
         host: '0.0.0.0',
